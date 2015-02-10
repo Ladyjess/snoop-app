@@ -8,7 +8,7 @@ describe('foshizzle') do
     expect("hello".foshizzle).to(eq("hello"))
   end
 
-  it('replacecus every "s" in a string with a "z"') do
+  it('replaces every "s" in a string with a "z"') do
     expect("roses".foshizzle).to(eq("rozez"))
   end
 
@@ -23,4 +23,4 @@ describe('foshizzle') do
   it('makes correct replacements regardless of case') do
     expect("Mrs. McSweet's street is Astoria Street!".foshizzle).to(eq("Mrz. McSweet'z street iz Aztoria Street!"))
   end
-end  
+end
